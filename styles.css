@@ -165,7 +165,7 @@ body {
 .sign-up-text, .sign-up-button {
     padding: 0 40px;
     color: #f9faf8;
-    margin: 10px 20px;
+    margin: 20px 20px;
 }
 
 .sign-up-text > h4 {
@@ -183,4 +183,13 @@ body {
     padding: 4px 10px;
     color: #f9faf8;
     font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px 0;
 }
