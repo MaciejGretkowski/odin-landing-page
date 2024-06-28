@@ -171,7 +171,6 @@ body {
     border-radius: 12px;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
 }
 
 .sign-up-text, .sign-up-button {
