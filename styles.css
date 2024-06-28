@@ -48,11 +48,12 @@ body {
     color: #f9faf8;
     margin: 0;
     font-weight: 800;
+    
 }
 
 .main-text > p {
     color: #e5e7eb;
-    margin: 0 0 10px 0
+    margin: 0 0 10px 0;
 }
 
 .main-text > button {
@@ -91,11 +92,19 @@ body {
     object-fit: cover;
 }
 
+.size-adjust {
+    width: 360px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
 .tiled-images{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     flex-wrap: wrap;
 }
 
@@ -108,7 +117,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     padding: 0 12%;
+    margin-bottom: 40px;
 }
 
 .tiled img {
@@ -119,6 +130,7 @@ body {
 .tiled p {
     margin: 2px 0;
     color: #1f2937;
+    max-width: 210px;
 }
 
 .quote {
